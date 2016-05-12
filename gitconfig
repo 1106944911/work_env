@@ -1,0 +1,21 @@
+[push]
+	default = simple
+[credential]
+	helper = store
+[user]
+	name = huangzheng
+	email = 1106944911@qq.com
+[http]
+	sslVerify = false
+[alias]
+    co = checkout
+    br = branch
+    ci = commit
+    st = status
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
+[core]
+	editor = vim
+	quotepath = false
